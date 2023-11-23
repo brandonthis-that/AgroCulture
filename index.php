@@ -8,9 +8,9 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<link href="bootstrap\css\bootstrap.min.css" rel="stylesheet">
+		<!-- <link href="bootstrap\css\bootstrap.min.css" rel="stylesheet"> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="bootstrap\js\bootstrap.min.js"></script>
+        <!-- <script src="bootstrap\js\bootstrap.min.js"></script> -->
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="login.css"/>
 		<script src="js/jquery.min.js"></script>
@@ -24,6 +24,26 @@
 		</noscript>
 		<link rel="stylesheet" href="indexfooter.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.umd.min.js" defer
+></script>
 	</head>
 
 	<?php
@@ -77,49 +97,69 @@
 
 
 		<!-- Footer -->
-		<footer class="footer-distributed" style="background-color:black" id="aboutUs">
-		<center>
-			<h1 style="font: 35px calibri;">About Us</h1>
-		</center>
-		<div class="footer-left">
-			<h3 style="font-family: 'Times New Roman', cursive;">FarmSense &copy; </h3>
-		<!--	<div class="logo">
-				<a href="index.php"><img src="images/logo.png" width="200px"></a>
-			</div>-->
-			<br />
-			<p style="font-size:20px;color:white">Making Farming Easier For You !!!</p>
-			<br />
-		</div>
+		<footer class="bg-dark text-white">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/sean.monroe.9003?mibextid=ZbWKwL" class="me-4 link-secondary" target='blank'>
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/ufwsean" target='blank' class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="mailto:seanmotanya@gmail.com" target='blank' class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://instagram.com/brand.on.85?igshid=MTNiYzNiMzkwZA==" target='blank' class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/brandon-nyakea-6a7aa7270/" target='blank' class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/brandonthis-that" target='blank' class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
 
-		<div class="footer-center">
-			<div>
-				<i class="fa fa-map-marker"></i>
-				<p style="font-size:20px">FarmSense<span>Kenya</span></p>
-			</div>
-			<div>
-				<i class="fa fa-phone"></i>
-				<p style="font-size:20px">123456789</p>
-			</div>
-			<div>
-				<i class="fa fa-envelope"></i>
-				<p style="font-size:20px"><a href="mailto:agroculture@gmail.com" style="color:white">demo@demo.com</a></p>
-			</div>
-		</div>
+    <section class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>FARM SENSE
+          </h6>
+          <p>Making Farming Easier For You !!</p>
+        </div>
 
-		<div class="footer-right">
-			<p class="footer-company-about" style="color:white">
-				<span style="font-size:20px"><b>About FarmSense</b></span>
-				FarmSense is e-commerce trading platform for grains & groceries...
-			</p>
-			<div class="footer-icons">
-				<a  href="#"><i style="margin-left: 0;margin-top:5px;"class="fa fa-facebook"></i></a>
-				<a href="#"><i style="margin-left: 0;margin-top:5px" class="fa fa-instagram"></i></a>
-				<a href="#"><i style="margin-left: 0;margin-top:5px" class="fa fa-youtube"></i></a>
-			</div>
-		</div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Navigate
+          </h6>
+          <p>
+            <a href="/homepage" class="text-reset">Home</a>
+          </p>
+        </div>
 
-	</footer>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Nairobi Farm Sense Towers</p>
+          <p><i class="fas fa-envelope me-3 text-secondary"></i> brandonnyakea@gamail.com</p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> +254 796 108 258</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> +971 582 301 251</p>
+        </div>
+      </div>
+    </section>
 
+    <div class="text-center p-4">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="/">Farmsense All rights reserved</a>
+    </div>
+  </footer>
+
+          
+      </div>
 
 			<div id="id01" class="modal">
 

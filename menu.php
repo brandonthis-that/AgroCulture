@@ -20,18 +20,21 @@
 ?>
 
 <!DOCTYPE html>
-			<header id="header">
-				<h1><a href="index.php">FarmSense</a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-						<li><a href="myCart.php"><span class="glyphicon glyphicon-shopping-cart"> MyCart</a></li>
-						<li><a href="<?= $link; ?>"><span class="<?php echo $logo; ?>"></span><?php echo" ". $loginProfile; ?></a></li>
-						<li><a href="market.php"><span class="glyphicon glyphicon-grain"> Digital-Market</a></li>
-						<li><a href="blogView.php"><span class="glyphicon glyphicon-comment"> BLOG</a></li> 
-					</ul>
-				</nav>
-			</header>
-
-	</body>
+<header id="header" class="d-flex justify-content-between">
+	<div id='farmsense'>
+    <h4><a href="index.php">FarmSense</a></h4>
+	</div>
+	<div class="d-flex justify-content-around flex-grow-1">
+    <nav id="nav">
+        <ul class="d-flex justify-content-around flex-grow-1">
+            <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="myCart.php"><span class="glyphicon glyphicon-shopping-cart"> MyCart</a></li>
+            <li><a href="<?= $link; ?>"><span class="<?php echo $logo; ?>"></span><?php echo" ". $loginProfile; ?></a></li>
+            <li><a href="market.php"><span class="glyphicon glyphicon-grain"> Digital-Market</a></li>
+            <li><a href="blogView.php"><span class="glyphicon glyphicon-comment"> BLOG</a></li> 
+        </ul>
+    </nav>
+	</div>
+	<div><h4>Bankai</h4></div>
+</header>
 </html>
