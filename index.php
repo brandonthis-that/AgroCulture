@@ -50,7 +50,7 @@
 		require 'menu.php';
 	?>
 
-		<!-- Banner -->
+		<!-- Banner --> 
 			<section id="banner" class="wrapper">
 				<div class="container">
 				<h2>FarmSense</h2>
@@ -63,7 +63,7 @@
 						</div>
 
 						<div class="6u 12u$(xsmall)">
-							<button class="button fit" onclick="document.getElementById('id02').style.display='block'" style="width:auto">REGISTER</button>
+							<button class="button fit" onclick="document.getElementById('id02').style.display='block'" style="width:auto">SIGN-UP</button>
 						</div>
 					</div>
 				</center>
